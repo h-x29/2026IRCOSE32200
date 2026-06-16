@@ -39,3 +39,29 @@ The content is based on my personal study notes for Lecture 11: TCP in Linux. It
 
 
 
+\## Learning Reflection
+
+
+
+Through studying TCP in Linux, I learned how the Linux kernel implements reliable communication using sequence numbers, acknowledgments, retransmissions, flow control, and congestion control.
+
+
+
+I also learned about important TCP-related kernel data structures such as:
+
+
+
+* struct socket
+* struct sock
+* struct tcp\_sock
+* struct sk\_buff
+* struct tcphdr
+
+
+
+The most interesting topic was understanding how Linux decides when packets can be transmitted through flow control and congestion control mechanisms.
+
+
+
+This repository serves as my personal study notes for Lecture 11.
+
